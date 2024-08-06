@@ -1,8 +1,13 @@
 .DS_Store
 node_modules
+/build
+/dist
+/package
 .env
 .env.*
 !.env.example
+/src-tauri/target
+.turbo
 
 # Ignore files for PNPM, NPM and YARN
 pnpm-lock.yaml
